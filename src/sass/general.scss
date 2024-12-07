@@ -1,0 +1,33 @@
+// Set "box-sizing"
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+// Remove "margins"
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+
+// Reset "a" elements, to default styles
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+// Add "scroll-behavior"
+html {
+  scroll-behavior: smooth;
+}
+
+// Add styles for .container
+.container {
+  max-width: 1280px;
+  padding: 0 40px;
+  margin: 0 auto;
+}
