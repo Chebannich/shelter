@@ -1,1 +1,10 @@
+// *-*-*-*-*-*-*-*-*-* General Styles Import *-*-*-*-*-*-*-*-*-*
 @import 'normalize.css';
+@import './general';
+@import './variables';
+@import './typography';
+@import './buttons';
+@import './links';
+
+// *-*-*-*-*-*-*-*-*-* Page Styles Import *-*-*-*-*-*-*-*-*-*
+@import './header';
