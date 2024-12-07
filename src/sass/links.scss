@@ -1,0 +1,12 @@
+a {
+  transition: all 0.3s linear;
+
+  &.menu__link_active {
+    cursor: auto;
+    border-bottom: 3px solid $color-primary;
+  }
+
+  &:not(.menu__link_active):hover {
+    color: $color-light-s;
+  }
+}
