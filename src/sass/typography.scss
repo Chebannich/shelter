@@ -1,0 +1,50 @@
+// *-*-*-*-*-*-*-*-*-* Styles For Titles *-*-*-*-*-*-*-*-*-*
+.title-2,
+.title-3,
+.title-4 {
+  font-family: Georgia, serif;
+  font-weight: 400;
+  color: $color-dark-l;
+}
+
+.title-2 {
+  font-size: 44px;
+  line-height: 1.3;
+}
+
+.title-3 {
+  font-size: 35px;
+  line-height: 1.3;
+  letter-spacing: 0.06em;
+}
+
+.title-4 {
+  font-size: 20px;
+  line-height: 1.15;
+  letter-spacing: 0.06em;
+}
+
+.title-5 {
+  font-size: 15px;
+  line-height: 1.1;
+  letter-spacing: 0.06em;
+}
+
+// *-*-*-*-*-*-*-*-*-* Styles For Paragraphs *-*-*-*-*-*-*-*-*-*
+.paragraph-l,
+.paragraph-s {
+  font-family: Arial, sans-serif;
+  font-weight: 400;
+  color: $color-dark-xl;
+}
+
+.paragraph-l {
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.paragraph-s {
+  font-size: 12px;
+  font-style: italic;
+  line-height: 1.5;
+}
