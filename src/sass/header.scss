@@ -1,0 +1,67 @@
+.header {
+  padding-top: 30px;
+  background: url("/images/header-bg.png") center / cover no-repeat;
+
+  .container {
+    display: grid;
+    grid-template-rows: 60px 1fr;
+  }
+
+  &__row {
+    display: grid;
+    grid-template-columns: 186px 1fr;
+  }
+}
+
+.logo {
+  display: grid;
+  align-content: space-between;
+  justify-items: center;
+
+  &__title {
+    font: 400 32px/1.1 Georgia, serif;
+    color: $color-primary;
+    letter-spacing: 0.06em;
+  }
+
+  &__subtitle {
+    font: 400 13px Arial, sans-serif;
+    color: $color-light-xl;
+    letter-spacing: 0.1em;
+  }
+}
+
+.menu {
+  display: grid;
+  grid-template-columns: repeat(4, max-content);
+  gap: 36px;
+  place-content: center end;
+  margin-bottom: 4px;
+  color: $color-dark-s;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: 460px 1fr;
+  margin-top: 90px;
+
+  &__content {
+    display: grid;
+    grid-template-rows: 114px 72px 52px;
+    gap: 42px;
+    margin-top: 163px;
+  }
+
+  &__title {
+    width: 310px;
+    color: $color-light-xl;
+  }
+
+  &__paragraph {
+    color: $color-dark-s;
+  }
+
+  &__image {
+    justify-self: end;
+  }
+}
